@@ -51,12 +51,11 @@ p {
   margin-bottom: 2rem;
 }
 
-/* Logo uploader section */
-.logo-upload {
-  border: 3px dashed #ffd700; /* Accent Yellow */
-  padding: 2rem;
-  border-radius: 10px;
-  transition: border-color 0.3s ease;
+/* Logo styling command */
+.site-logo {
+  max-width: 200px;
+  height: auto;
+  margin: 2rem 0;
 }
 
 .logo-upload:hover {
