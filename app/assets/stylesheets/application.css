@@ -115,7 +115,19 @@ p {
   align-items: center;
 }
 
-.nav-logo {
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo image */
+.nav-logo-img {
+  max-width: 50px;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.nav-logo-text {
   font-size: 1.5rem;
   color: #f95738; /* Tiger Orange */
   text-decoration: none;
