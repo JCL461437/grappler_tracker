@@ -23,7 +23,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #f4f4f9; /* Neutral Gray */
+  background-color: #000004; /* Neutral Gray */
   color: #1b1b1e; /* Deep Black */
   display: flex;
   flex-direction: column;
@@ -47,7 +47,7 @@ h1 {
 
 p {
   font-size: 1.25rem;
-  color: #4b3f31; /* Bear Brown */
+  color: #d78c37; /* Bear Brown */
   margin-bottom: 2rem;
 }
 
@@ -92,7 +92,7 @@ p {
 }
 
 .btn-primary:hover {
-  background-color: #ffd700;
+  background-color: #d78c37;
   color: #1b1b1e;
 }
 
