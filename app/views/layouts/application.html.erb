@@ -11,6 +11,24 @@
   </head>
 
   <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="container">
+        <%= link_to 'Grappler Tracker', root_path, class: 'nav-logo' %> <!-- Home link -->
+
+        <ul class="nav-links">
+          <!-- Profile Link -->
+          <% if current_user %> 
+            <li><%= link_to 'Profile', user_path(current_user), class: 'nav-item' %></li>
+          <% else %>
+            <li><%= link_to 'Login', new_user_session_path, class: 'nav-item' %></li>
+            <li><%= link_to 'Sign Up', new_user_registration_path, class: 'nav-item' %></li>
+          <% end %>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Content from views -->
     <%= yield %>
   </body>
 </html>
