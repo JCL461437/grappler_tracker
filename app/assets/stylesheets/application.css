@@ -96,3 +96,50 @@ p {
   color: #1b1b1e;
 }
 
+/* Navbar styling */
+.navbar {
+  background-color: #1b1b1e; /* Deep Black */
+  color: white;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-size: 1.5rem;
+  color: #f95738; /* Tiger Orange */
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+  color: #ffd700; /* Accent Yellow */
+}
+
+/* To prevent content from being hidden under the navbar */
+body {
+  padding-top: 80px;
+}
+
