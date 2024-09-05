@@ -14,7 +14,10 @@
     <!-- Navigation Bar -->
     <nav class="navbar">
       <div class="container">
-        <%= link_to 'Grappler Tracker', root_path, class: 'nav-logo' %> <!-- Home link -->
+        <div class="nav-left">
+          <%= link_to image_tag('grappler_tracker_logo.jpeg', alt: 'Grappler Tracker Logo', class: 'nav-logo-img'), root_path %> <!-- Logo linked to home -->
+          <%= link_to 'Grappler Tracker', root_path, class: 'nav-logo-text' %> <!-- Home link -->
+        </div>
 
         <ul class="nav-links">
           <!-- Profile Link -->
