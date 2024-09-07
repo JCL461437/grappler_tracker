@@ -20,15 +20,7 @@
           <li><%= link_to 'Grapplers Grimoire', grimoire_path, class: 'nav-item' %></li> 
         </div>
 
-        <ul class="nav-links">
-          <!-- Profile Link -->
-          <% if current_user %> 
-            <li><%= link_to 'Profile', user_path(current_user), class: 'nav-item' %></li>
-          <% else %>
-            <li><%= link_to 'Login', new_user_session_path, class: 'nav-item' %></li>
-            <li><%= link_to 'Sign Up', new_user_registration_path, class: 'nav-item' %></li>
-          <% end %>
-        </ul>
+        <!-- Put other nav bar section back eventually -->
       </div>
     </nav>
 
