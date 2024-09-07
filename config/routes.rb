@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   root "welcome#index"
 
   resources :users, only: [:show]
+  resources :grimoire, only: [:index]
 end
